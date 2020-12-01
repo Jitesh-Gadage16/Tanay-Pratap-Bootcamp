@@ -124,10 +124,16 @@ hr {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: var(--primary-color-gray);
+    color: var(--color-gray-dark);
+}
+.hero-heading1{
+    text-align: center;
+    padding: 2rem 0rem;
+    color: var(--color-gray-dark);
+
 }
 
-.hero .hero-heading .heading-inverted {
+.hero .hero-heading .hero-heading-inverted {
     color: var(--primary-color);
 }
 
@@ -167,4 +173,16 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.project-list-item{
+    padding: 2rem 0.8rem;
+}
+.project-heading{
+    padding-bottom: 1.5rem;
+}
+.project-list-item .project-dsc{
+    margin-bottom: 2rem;
+    
+    /* padding: 2rem; */
 }
